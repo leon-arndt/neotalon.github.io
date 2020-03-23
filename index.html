@@ -14,13 +14,21 @@ img.icon {
   vertical-align: baseline;
 }
 
+/* Red border */
+hr.heavy-gray {
+  border-top: 1px solid rgb(64, 64, 64);
+  text-align: right;
+  width: 70%;
+}
+
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
+
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="w3-padding-64 w3-center"><b>Leon Arndt</b></h3>
-  <hr class="w3-opacity">
+  <hr class="heavy-gray">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
